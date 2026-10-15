@@ -1,0 +1,14 @@
+{
+  "name": "freebuff-hive",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bus de la colmena de agentes Freebuff: tarjetas, asks y offers por Nostr (sin cuenta, sin servidor propio).",
+  "scripts": {
+    "hive": "node scripts/hive.mjs"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.9.7",
+    "@noble/hashes": "^1.8.0"
+  }
+}
